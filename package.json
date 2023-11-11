@@ -1,0 +1,26 @@
+{
+  "name": "20231110",
+  "version": "1.0.0",
+  "description": "",
+  "workspaces": [
+    "amplify",
+    "packages/*"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "aws-amplify": "^6.0.2-unstable.51ed7b4.0"
+  },
+  "devDependencies": {
+    "@aws-amplify/backend": "^0.4.0",
+    "@aws-amplify/backend-cli": "^0.6.0",
+    "@types/aws-lambda": "^8.10.126",
+    "aws-cdk-lib": "^2.103.0",
+    "constructs": "^10.3.0",
+    "typescript": "^5.2.2"
+  }
+}
